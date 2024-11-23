@@ -15,6 +15,7 @@ langgraph = "^0.2.50"
 python-dotenv = "^1.0.1"
 langsmith = "^0.1.143"
 langchain-community = "^0.3.7"
+pandas = "^2.2.3"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -23,3 +24,6 @@ ruff = "^0.7.4"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
